@@ -36,11 +36,11 @@ difference  -> ternary conditions do not support return in their conditions;
 
 ----
 
-*/ 
+*/
 
 // regular
 function add(x, y) { return (x + y); }
-function factorial(n) 
+function factorial(n)
 {
     if(n<2) { return 1; }
     else { return n*factorial(n-1); }
@@ -61,7 +61,7 @@ function func(x) { console.log(x); }
 function dec(func)
 {
     function inner(x, y) { return (x * y); }
-    
+
     return func(inner(3, 4));
 }
 
