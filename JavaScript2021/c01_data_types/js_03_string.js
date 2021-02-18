@@ -6,6 +6,7 @@
 concept: same concept like string class in C++; string type in C# etc;
 * string is an array of characters;
 -> string in JS is iterable;
+-> string is immutable after declaration;
 
 
 methods

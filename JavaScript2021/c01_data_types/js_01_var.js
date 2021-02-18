@@ -12,6 +12,12 @@
 
 * boolean   -> true or false;
 
+* symbol    -> in a JS runtime environment, a symbol value is created by invoking the function Symbol;
+            -> returns an anonymouse, unique value;
+            -> usage: as a object property;
+
+            -> seems like uuid in Python; or GUID in C#;
+
 * object    -> user-defined type;
 ----
 
