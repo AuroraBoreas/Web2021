@@ -60,6 +60,12 @@ var fruits = [
     "ZL",
     "World",
     "Hello",
+    "ZL",
+    "World",
+    "Hello",
+    "ZL",
+    "World",
+    "Hello",
 ];
 
 fruits.forEach(element => {
@@ -84,3 +90,14 @@ console.log(copied);
 // index
 var val = fruits.indexOf("Hello");
 console.log(val);   // 2    
+
+// count, no builtin count method supported in JS; feelsbadman;
+console.log();
+var counter_ZL = 0;
+var what = "ZL";
+for(let fruit of fruits)
+{
+    if(fruit=="ZL")
+        counter_ZL++;
+}
+console.log(`${what} counts ${counter_ZL}`);
