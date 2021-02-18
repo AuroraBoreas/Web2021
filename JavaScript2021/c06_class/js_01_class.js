@@ -1,5 +1,8 @@
 /*
 
+JS >= ECMAScript 2015 Classes
+
+
 [source, class]
 ----
 
