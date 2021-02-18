@@ -27,7 +27,7 @@ methods
 ----
 
 
-*/ 
+*/
 
 var s1 = "hello world";
 
@@ -47,3 +47,9 @@ console.log(s1.replace('o', 'A'));
 var strs = ["hello", "world"];
 var s2 = strs.join();
 console.log(s2);
+
+// split
+console.log();
+let s3 = "hello world ZL";
+let res = s3.split(' ');
+console.log(res, res.length);

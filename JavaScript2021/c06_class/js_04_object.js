@@ -28,3 +28,13 @@ dict1['nn'] = 3;
 
 obj1.greeting("ZL");
 console.log(dict1['ll']);
+
+// object.hasOwnProperty()
+if(obj1.hasOwnProperty("sex"))
+{
+    console.log(obj1["sex"]);
+}
+else
+{
+    console.log("not found");
+}
