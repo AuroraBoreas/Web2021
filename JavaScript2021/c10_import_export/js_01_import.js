@@ -8,23 +8,27 @@ concept is similar with C++, C#, Python etc;
 * import
 * require
 
++ note: import is a ES6 feature, Node.js does NOT support it yet; using require() instead;
 
 ----
 
 */
 
-import {
-    add,
-    sub,
-    Point
-} from "./functions1.js";
+// import {
+//     add,
+//     sub,
+//     Point
+// } from "./functions1.js";
 
-console.log(add(1, 2, 3, 4));
-console.log(sub(42, 31));
 
-p = new Point(42, 22);
+// require
+var lib = require("./functions1")
+
+console.log(lib.add(1, 2, 3, 4));
+console.log(lib.sub(42, 31));
+
+p = new lib.Point(42, 22);
 console.log(p.ToString());
 
-// import everything
-
-import * as lib from "./functions1.js";
+// import everything in ES6
+// import * as lib from "./functions1.js";

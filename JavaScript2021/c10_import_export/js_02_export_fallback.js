@@ -9,6 +9,9 @@
 
 */
 
-import div from "./functions2.js";
+// ES6 feature import does NOT work in Node.js
+// import { Division } from "./functions2.js";
 
-console.log(div(12, 3));
+// require
+let lib = require('./functions2')
+console.log(lib.div(12, 3));

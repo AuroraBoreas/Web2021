@@ -1,12 +1,12 @@
-export function add(...args) {
+function add(...args) {
     return args.reduce((x, y)=> x + y, 0);
 }
 
-export function sub(x, y) {
+function sub(x, y) {
     return (x - y);
 }
 
-export class Point
+class Point
 {
     constructor(x, y)
     {
@@ -20,4 +20,6 @@ export class Point
     }
 }
 
-export { add, sub, Point }
+exports.add = add;
+exports.sub = sub;
+exports.Point = Point;
