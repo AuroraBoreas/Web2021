@@ -3,13 +3,13 @@
 [box model]
 ----
 
-* content
+* [] content
 
-* padding
+* [] padding
 
-* border
+* [*] border
 
-* margin
+* [] margin
 
 ----
 
@@ -40,4 +40,16 @@ body {
 .about-me-image {
     height: 300px;
     width: 30vw;
+}
+
+#service-image {
+    height: 300px;
+    width: 40%;
+
+    background: radial-gradient(circle, red, green, blue);
+
+    border: 10px solid red;
+    border: 10px dotted red;
+    border: 10px double red;
+    border: 10px double rgb(255, 136, 0);
 }
