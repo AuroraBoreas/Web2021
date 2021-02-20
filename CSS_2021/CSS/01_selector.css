@@ -1,0 +1,26 @@
+/*
+
+[selectors]
+----
+
+* type      --> no symbol
+* class     --> using . to select
+* id        --> using # to select
+
+----
+
+*/
+
+/* element selector */
+body {
+    background-color: red;
+}
+/* class */
+
+.class-paragraph {
+    font-size: xx-large;
+}
+
+#my-id {
+    font-size: 10em;
+}

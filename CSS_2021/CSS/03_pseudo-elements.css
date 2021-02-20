@@ -1,0 +1,52 @@
+/* 
+
+[pseudo-selector]
+----
+
++ what: 
+    A CSS pseudo-element is used to style specified parts of an element.
+
+
++ note
+
+    | CSS(n)        | syntax                        |
+    |---------------|-------------------------------|
+    | CSS3          | selector::pseudo-element      | 
+    | CSS3          | selector:pseudo-class         |
+    | CSS2, CSS1    | selector:pseudo-class/element |
+
+----
+
+*/
+
+/* child */
+li:first-child {
+    color: red;
+    font: 10em;
+}
+
+li:last-child {
+    color: blue;
+    font: 10em;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+li:only-child {
+    color: purple;
+}
+
+td:only-child {
+    color: purple;
+}
+
+/* usage */
+#bing-link:link{
+    color: blue;
+}
+
+#bing-link:visited{
+    color: red;
+}

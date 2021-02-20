@@ -1,0 +1,41 @@
+/* 
+
+[specificity]
+----
+
+link: https://www.w3schools.cn/css/css_specificity.asp
+
++ hierarchy
+    * Inline styles - An inline style is attached directly to the element to be styled. Example: <h1 style="color: #ffffff;">.
+    
+    * IDs - An ID is a unique identifier for the page elements, such as #navbar.
+    
+    * Classes, attributes and pseudo-classes - This category includes .classes, [attributes] and pseudo-classes such as :hover, :focus etc.
+    
+    * Elements and pseudo-elements - This category includes element names and pseudo-elements, such as h1, div, :before and :after.
+
+
+
++ how to calculate?
+    Start at 0, 
+
+    * add 1000 for inline style attribute
+    * add 100 for each ID
+    * add 10 for each attribute, class or pseudo-class
+    * add 1 for each element name or pseudo-element
+
++ rules
+    * Equal specificity: the latest rule counts
+
+    * ID selectors have a higher specificity than attribute selectors
+
+    * Contextual selectors are more specific than a single element selector
+
+    * A class selector beats any number of element selectors
+    
+    * The universal selector and inherited values have a specificity of 0
+
+----
+
+
+*/

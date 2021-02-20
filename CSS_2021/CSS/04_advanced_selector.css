@@ -1,0 +1,45 @@
+/* 
+
+
+
+*/
+
+/* 
+
+* meaning: <h2> type after <a> type
+* scope: global
+
+*/
+h2 + a {
+    color: red;
+}
+
+/* 
+
+* meaning: every <button> that follows <textarea> in the same parent
+* scope: same parent
+
+*/
+textarea ~ button {
+    color: purple;
+}
+
+/* 
+
+* meaning: every direct <li> inside of <ul> (not more not less)
+
+*/
+
+ul > li {
+    color: blue;
+}
+
+/* 
+
+* meaning: any <li> inside of <ul>
+
+*/
+
+ul li {
+    color: green;
+}
