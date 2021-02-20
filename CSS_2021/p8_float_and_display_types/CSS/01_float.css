@@ -1,15 +1,8 @@
 /* 
 
-[box model]
+[float]
 ----
 
-* [] content
-
-* [*] padding
-
-* [*] border
-
-* [] margin
 
 ----
 
@@ -43,9 +36,32 @@ body {
 
     border: 10px double red;
 
-    padding: 20px;
-
+    /* order
     
+    4 values:
+    top -> right - bottom -> left
+    
+    */
+    padding: 0 0 20px 20px;
+
+    /* order 
+    
+    2 values:
+    top and bottom -> right and left
+    
+    */
+
+    /* 
+    
+    1 value:
+    top, right bottom, left are same
+    
+    */
+    margin: 80px 40px;
+    
+    /* float: right; */
+    /* float: inherit; */
+    float: none;
 }
 
 #service-image {
@@ -57,5 +73,15 @@ body {
     border: 10px solid red;
     border: 10px dotted red;
     border: 10px double red;
-    border: 10px double rgb(255, 136, 0);    
+    border: 10px double rgb(255, 136, 0);  
+    
+    /* float: right; */
+}
+
+.link {
+    /* float: right; */
+}
+
+.site-table {
+    /* display: none; */
 }

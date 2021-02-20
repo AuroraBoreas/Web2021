@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://cdn.repository.webfont.com/webfonts/nomal/143378/46865/6031077bf629d807089f7975.css' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="../CSS/01_float.css">
+    <link rel="stylesheet" href="../CSS/06_flex_grow_shrink_basis.css">
     <title>My Website</title>
 </head>
 <body>
@@ -70,6 +70,38 @@
         
         <div id="service-image">
             hello world
+        </div>
+
+        <div class="container">
+            <div class="container-item" style="order: 7; flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">A</div>
+            <div class="container-item" style="order: 6; flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">B</div>
+            <div class="container-item" style="order: 4; flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">C</div>
+            <div class="container-item" style="order: 5; flex-grow: 5; flex-shrink: 3; flex-basis: 100px;">D</div>
+            <div class="container-item" style="order: 3; flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">F</div>
+            <div class="container-item" style="order: 1; flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">G</div>
+            <div class="container-item" style="order: 2; flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">H</div>
+            <!-- shorthand: grow-shrink-basis -->
+            <div class="container-item" style="order: 2; flex: 1 1 100px">H</div>
+            <!-- <div class="container-item">I</div>
+            <div class="container-item">G</div>
+            <div class="container-item">A</div>
+            <div class="container-item">B</div>
+            <div class="container-item">C</div>
+            <div class="container-item">D</div>
+            <div class="container-item">F</div>
+            <div class="container-item">G</div>
+            <div class="container-item">H</div>
+            <div class="container-item">I</div>
+            <div class="container-item">G</div>
+            <div class="container-item">A</div>
+            <div class="container-item">B</div>
+            <div class="container-item">C</div>
+            <div class="container-item">D</div>
+            <div class="container-item">F</div>
+            <div class="container-item">G</div>
+            <div class="container-item">H</div>
+            <div class="container-item">I</div>
+            <div class="container-item">G</div> -->
         </div>
 
         <img src="/CSS_2021/images/img-3.jpeg" alt="FileNotFound">

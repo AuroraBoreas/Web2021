@@ -1,15 +1,8 @@
 /* 
 
-[box model]
+[display]
 ----
 
-* [] content
-
-* [*] padding
-
-* [*] border
-
-* [] margin
 
 ----
 
@@ -65,7 +58,8 @@ body {
     
     */
     margin: 80px 40px;
-
+    
+    float: right;
     
 }
 
@@ -78,5 +72,16 @@ body {
     border: 10px solid red;
     border: 10px dotted red;
     border: 10px double red;
-    border: 10px double rgb(255, 136, 0);    
+    border: 10px double rgb(255, 136, 0);  
+    
+    /* float: right; */
+}
+
+.link {
+    /* float: right; */
+}
+
+.site-table {
+    display: inline;
+    display: inline-block;
 }
