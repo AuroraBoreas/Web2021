@@ -1,0 +1,57 @@
+/* 
+
+[attribute selector]
+----
+
++ link: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
++ syntax: `element[attr = value]`
+
++ concept: is similar with regex
+
+----
+
+*/
+
+/* CSS does NOT require "" */
+h2[class=subtitle]{
+    color: red;
+}
+
+/* 
+
+[attr]
+
+[attr = value]
+means: exactly same
+
+[attr ^= value]
+means: attr startswith value
+
+[attr $= value]
+means attr endswith value
+
+[attr *= value]
+means: contains value pattern anywhere
+
+[attr ~= value]
+means: attr value is a whitespace-seperated list of words, one of which is exactly pattern
+
+[attr |= value]
+means: attr can be exactly value or can begin with value immediately followed by a hyphen(-);
+
+[attr operator value i]
+ignore case
+
+[attr operator value s]
+case sensitive
+
+*/
+
+img[src^="../img/"] {
+    color: green;
+}
+
+h2[class~=article-subtitle] {
+    background-color: lightgreen;
+}
