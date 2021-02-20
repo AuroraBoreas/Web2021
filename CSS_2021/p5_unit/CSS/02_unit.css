@@ -1,0 +1,69 @@
+/* 
+
+[data types in CSS]
+----
+
+* <integer>;
+
+* <number>    -> f/d, decimal;
+
+* <dimension>   -> <length>, <angle>, <time> and <resolution> types
+                    10cm, 500px, 180deg, 5s, 
+
+* <percentage>  50%;
+
+----
+
+
+[units in CSS]
+----
++ link: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+
+* absolute units
+    - px; (it is also relative to resolution of device)
+    - pt;
+    - pc;
+    - Q;
+    - mm,
+    - cm,
+    - in;
+    
+* relative units -> relative to parent or viewports
+    - em;   --> font-size of parent in case of "typographical"; font-size of itself in other cases;
+    - ex; --> x-height of the element's font
+    - ch; --> ??
+    - rem; --> font size of the root element;
+
+    - lh; --> line height of the element;
+
+    - vw; --> 1% of viewport's width;
+    - vh; --> 1% of viewport's height;
+
+    - vmin; --> 1% of viewport's smaller dimension;
+    - vmax; --> 1% of viewport's larger dimension;
+
+----
+
+
+[viewports in CSS]
+----
+
++ link: https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts
+
++ definition: A viewport represents the area in computer graphics being currently viewed;
+
+In web browser terms, it is generally the same as the browser window, excluding the UI, menu bar, etc
+
+----
+
+*/
+
+body {
+    font-size : 2em;
+}
+
+#service-image {
+    height: 400px;
+    width: 70%;
+    background: linear-gradient(90deg, red, green, blue);
+}

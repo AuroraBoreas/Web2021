@@ -1,0 +1,34 @@
+/* 
+
+[box model]
+----
+
+* content
+
+* padding
+
+* border
+
+* margin
+
+----
+
+*/
+
+body {
+    font-size: 1.25em;
+
+    /* font-family: sans-serif;
+    font-family: "Times New Roman", sans-serif; */
+
+    font-family: sans-serif;
+}
+
+#title {
+    font-weight: 400;
+    font-family: 'Source-Han-Ligh2664ae80c523012';
+}
+
+.italics {
+    font-style: italic;
+}

@@ -1,0 +1,40 @@
+/* 
+
+[font]
+----
+
+* font-size
+
+* font-weight
+
+* font-style
+
+* font-family
+    -- serif
+    -- sanserif
+    -- monospace
+
+    -- 按args顺序，如果第一个OK则使用；NG则继续下一个；
+
+    -- import cloud font-family from cloud like Google Fonts;
+
+----
+*/
+
+body {
+    font-size: 1.25em;
+
+    /* font-family: sans-serif;
+    font-family: "Times New Roman", sans-serif; */
+
+    font-family: sans-serif;
+}
+
+#title {
+    font-weight: 400;
+    font-family: 'Source-Han-Ligh2664ae80c523012';
+}
+
+.italics {
+    font-style: italic;
+}

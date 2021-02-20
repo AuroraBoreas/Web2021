@@ -1,0 +1,35 @@
+/* 
+
+[units in CSS]
+----
+
+* absolute units
+    - px; (it is also relative to resolution of device)
+    - cm;
+    
+* relative units
+    - em;
+    - xxx%;
+
+----
+
+
+*/
+
+body {
+    /* font-size: 2mm; */
+    /* font-size: 2cm; */
+}
+
+#service-image {
+    /* 
+    
+    pc >>> pt > px;
+
+    */
+    height: 400px;
+    /* height: 400pt; */
+    /* height: 400pc; */
+    width: 50%;
+    background: linear-gradient(225deg, red, blue, green);
+}
