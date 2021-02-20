@@ -1,0 +1,80 @@
+/* 
+
+background vs background-color
+----
+
+background  --> shorthand to combine many background tags into one line;
+                Combines color, image and background image properties in the one line
+
+background-color --> refers to background color only;
+
+----
+
+
+[CSS standard function]
+----
+@ W3School
+
+* attr()        -> return the value of an attribute of the selected element
+* calc()        -> allows u to perform calculations to determine CSS property values
+
+* cubic-bezeir  -> defines a cubic bezeir curve
+
+* hsl()     -> defines colors using the Hue-Saturation-Lightness model(HSL)
+* hslar()   -> defines colors using the Hue-Saturation-Lightness-alpha model(HSLA)
+
+* linear-gradient() -> set a linear gredient as the background image;
+* radial-gradient() -> set a radial gradient as the background image;
+
+* repeating-linear-gradient()
+* repeating-radial-gradient()
+
+* rgb()
+* rgba()
+
+* var() -> inverst the value of a custom property
+
+----
+
+*/
+
+
+body {
+    /* 
+    
+    [img address vs link address]
+    ----
+    img address --> the address of img itself
+    link address --> the address of website owns it
+    ----
+    */
+    background: rgba(205, 229, 255, 0.4);
+
+    /* background: url("https://images.pexels.com/photos/21492/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+
+}
+
+#service-image {
+    height:500px;
+    width: 70%;
+    /* 
+    
+    [file path]
+    ----
+
+    * [x] absolute path
+
+    * [x] relative path
+
+    * [*] absolute with forward slash instead of domain name
+
+    ----
+    
+    */
+
+    background: url("/CSS_2021/p3_color/image/img-6.jpeg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: steelblue;
+    
+}

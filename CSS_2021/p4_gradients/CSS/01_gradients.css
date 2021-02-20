@@ -1,0 +1,31 @@
+/* 
+
+[gradient]
+----
+
+* linear-gradient()
+    - first arg is vertical (Y)
+* radial-gradient()
+
+ ...
+
+----
+
+*/
+
+body {
+    background-color: rgba(236, 178, 233, 0.1)
+}
+
+#service-image {
+    height: 300px;
+    width: 50%;
+    /* 
+    
+    background: linear-gradient() works;
+    background-color: linear-gradient() NOT work;
+    */
+    /* background: linear-gradient(to right, red,green, steelblue, blue); */
+    /* background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0)); */
+    background: linear-gradient(-90deg, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0));
+}

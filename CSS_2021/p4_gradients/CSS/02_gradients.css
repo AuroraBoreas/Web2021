@@ -1,0 +1,30 @@
+/* 
+
+[gradient]
+----
+
+* linear-gradient()
+* radial-gradient()
+    - first arg is shape, rectangle by default;
+
+
+ ...
+
+----
+
+*/
+
+body {
+
+    background: linear-gradient(180deg, rgba(204, 229, 255, 0),  rgba(204, 229, 255, 0.4));
+}
+
+#service-image {
+
+    height: 400px;
+    width: 50%;
+    /* background: radial-gradient(red, blue); */
+    /* background: radial-gradient(red, blue, green); */
+    /* background: radial-gradient(red 20%, blue 40%, green 50%); */
+    background: radial-gradient(circle, red 20%, blue 40%, green 50%);
+}
