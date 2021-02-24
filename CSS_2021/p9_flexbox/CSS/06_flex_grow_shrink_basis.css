@@ -109,16 +109,16 @@ body {
     flex-wrap: nowrap;
 
     /* align content */
-    justify-content: flex-end;
+    justify-content: flex-start;
     justify-content: space-between;
     justify-content: space-around;
-    justify-content: flex-start;
+    justify-content: center;
 
     /* align item */
     /* special value: base and stretch */
-    align-items: center;
-    align-items: flex-start;
     align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
 
     /* grow, shrink, basis: see index.html */
 
