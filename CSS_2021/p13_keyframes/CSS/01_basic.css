@@ -78,7 +78,11 @@ body {
     transition: background 2s linear;
     transition: background 300ms ease-in-out 1s;
     transition: padding 300ms ease-in-out 500ms;
-    transform: translate(50px 40px);
+
+
+    transform: matrix(1, 0.45, 0.45, 1, 100, 50);
+
+
     /* safari */
     -webkit-transition: padding 300ms ease-in-out 500ms;
     /* moz */
@@ -94,3 +98,21 @@ body {
     padding: 20px 30px;
     
 }
+
+#about-me {
+    animation-name: red-to-black; /* nothing happening.. why? */
+}
+
+/* from, to keywords are limited */
+@keyframes red-to-black {
+    from { background: red; }
+    to { background: black}
+}
+
+/* usinng N% */
+@keyframes red-to-black {
+    0% { background: red; transform: translate(0px, 0px); }
+    50% { background: yellow; transform: translate(10px, 10px); }
+    100% { background: black; transform: translate(20px, 20px); }
+}
+

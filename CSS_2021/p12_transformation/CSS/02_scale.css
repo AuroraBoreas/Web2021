@@ -78,7 +78,8 @@ body {
     transition: background 2s linear;
     transition: background 300ms ease-in-out 1s;
     transition: padding 300ms ease-in-out 500ms;
-    transform: translate(50px 40px);
+
+    transform: scale(2.5);
     /* safari */
     -webkit-transition: padding 300ms ease-in-out 500ms;
     /* moz */
