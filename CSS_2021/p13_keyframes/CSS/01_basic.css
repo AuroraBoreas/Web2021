@@ -101,6 +101,17 @@ body {
 
 #about-me {
     animation-name: red-to-black; /* nothing happening.. why? */
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-timing-function: linear;
+    /* animation-delay: -2s;  negative means starts early; while positive means from 0 */
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+
 }
 
 /* from, to keywords are limited */
