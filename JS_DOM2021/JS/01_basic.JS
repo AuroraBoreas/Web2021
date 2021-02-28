@@ -61,7 +61,7 @@ body
 
 ----
 
-*/ 
+*/
 
 
 /* explore DOM using JS */
@@ -88,7 +88,7 @@ console.log("links => ", document.links);
 console.log("images => ", document.images);
 
 
-/* 
+/*
 
 [selectors]
 ----
@@ -102,7 +102,7 @@ console.log("images => ", document.images);
 
 ----
 
-*/ 
+*/
 
 var IdName = "title";
 let HeadTitle = document.getElementById(IdName);
@@ -120,7 +120,7 @@ console.log(IdName, HeadTitle);
 * innerText, returns only text contents, w/o style;
 ----
 
-*/ 
+*/
 console.log(HeadTitle.innerHTML);
 console.log(HeadTitle.innerText);
 
@@ -143,7 +143,7 @@ for(let i = 0; i < myUL.length; ++i)
 }
 
 /* querySelector() */
-var qry = document.querySelector("input");    // any CSS selector :D 
+var qry = document.querySelector("input");    // any CSS selector :D
 console.log(qry);
 qry.value = "hello CYJ";
 
